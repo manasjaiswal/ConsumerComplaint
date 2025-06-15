@@ -84,7 +84,6 @@ def classify_intent(user_input):
     return response.choices[0].message.content.strip().lower()
 
 def format_complaint_details(details):
-    """Format complaint details as a beautiful Streamlit display"""
     # Convert string timestamp to datetime if needed
     created_at = details['created_at']
     if isinstance(created_at, str):
@@ -132,7 +131,7 @@ def format_complaint_details(details):
         st.markdown("---")  # Horizontal line
 
 def extract_fields_from_message(message):
-    """Use LLM to extract any personal/complaint data from natural language"""
+    """LLM to extract any personal/complaint data from natural language"""
     response = client.chat.completions.create(
         model="llama3-8b-8192",
         messages=[{

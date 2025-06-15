@@ -2,7 +2,10 @@
 RAG application for registering and retrieving consumer complaints
 
 
-# the flow diagram link
-https://drive.google.com/file/d/1HiBXSB68pUlwwYhdlQoCm-Lm5tTTU4kC/view?usp=drive_link
+# the flow diagram can be seen in the following file :
+FlowDiagram.drawio.png
+
+# The demo video is in the following file:
+test_video.mp4
 
 

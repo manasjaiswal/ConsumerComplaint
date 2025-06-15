@@ -2,7 +2,6 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-# SQLite database URL (creates `complaints.db` in your project root)
 SQLALCHEMY_DATABASE_URL = "sqlite:///./complaints.db"
 
 # Create engine
